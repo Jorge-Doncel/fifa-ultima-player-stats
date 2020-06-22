@@ -8,9 +8,9 @@ from data_fifa import *
 
 
 def parser():
-    parser = ArgumentParser(description="Este programa es para comparar dos jugadores en su máxima puntuación en el FIFA ULTIMATE TEAM 2020")
-    parser.add_argument("--player1", help="Elige primer futbolista. Añade la primera letra de cada palabra en mayúscula", nargs="+")
-    parser.add_argument("--player2", help="Elige segundo futbolista. Añade la primera letra de cada palabra en mayúscula", nargs="+")                    
+    parser = ArgumentParser(description="This data pipeline allow you to compare two players in their highest score in FIFA ULTIMATE TEAM 2020")
+    parser.add_argument("--player1", help="Choose first football player. Add the first letter of each word in capital letters", nargs="+")
+    parser.add_argument("--player2", help="Choose second football player. Add the first letter of each word in capital letters", nargs="+")                    
 
 
     args = parser.parse_args()
