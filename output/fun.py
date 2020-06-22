@@ -3,8 +3,7 @@
 import pandas as pd
 import numpy as np
 from data_fifa import *
-import json
-import requests
+
 
 
 
